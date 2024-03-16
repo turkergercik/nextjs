@@ -6,10 +6,10 @@
     "products": [
       {
         "id": 1,
-        "name": "phone716",
+        "name": "phone71",
         "imageUrl": "https://placekitten.com/300/204",
         "description": "Feature-rich smartphone with a stunning display and advanced camera capabilities.",
-        "price": "78.78",
+        "price": "794",
         "stock": "780"
       },
       {

@@ -19,7 +19,7 @@ const Cart = () => {
         tot.current = tot.current+parseFloat(item.price)
         
        
-        console.log(tot.current)
+        //console.log(tot.current)
           settotal(tot.current)
           
       })
@@ -45,7 +45,7 @@ const Cart = () => {
       }
     });
     
-    console.log(filtered1);
+    //console.log(filtered1);
     
 
     setfilteredcart(filtered1)
@@ -101,7 +101,7 @@ function updatecart(){
         {filteredcart.map((item, index) => (
           <div key={index} className="flex w-full md:w-4/5 h-24  bg-orange-100 border-2 border-orange-300 items-center justify-between rounded-xl hover:shadow-lg">
             <div className="relative h-24 min-w-24">
-              <Image className="rounded-xl p-1 py-[0.3rem]" src={item.imageUrl} sizes="100vw" style={{ objectFit: 'cover' }} fill alt={item.name} />
+              <Image className="rounded-xl p-1 py-[0.3rem]" src={item.imageUrl} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" priority style={{ objectFit: 'cover' }} fill alt={item.name}  />
             </div>
             <span className="font-bold h-full w-full overflow-hidden flex justify-center items-center text-center break-all text-orange-800">{item.name}</span>
             <span className="p-2 w-1/4 flex justify-center items-center text-nowrap text-orange-800">{`${item.price} ₺`}</span>
@@ -114,7 +114,7 @@ function updatecart(){
          const filtercart = cart.findLastIndex((cartitem,index)=>cartitem.id===item.id)
          let ar=[]
          const mycart=JSON.parse(JSON.stringify(cart))
-         console.log(mycart)
+         //console.log(mycart)
          const myfilteredcart=JSON.parse(JSON.stringify(filteredcart))
          if(myfilteredcart[filtered]){
           const myitem = myfilteredcart[filtered]
@@ -132,7 +132,7 @@ function updatecart(){
          }
          mycart.splice(filtercart,1)
          setcart(mycart)
-         console.log(mycart)
+         //console.log(mycart)
          //setfilteredcart(mycart)
          localStorage.setItem("cart",JSON.stringify(mycart))
           /* if(cartitem.id === item.id){
@@ -149,7 +149,7 @@ function updatecart(){
              }
           } */
           //const filtered1= filtered.filter((obj)=>obj!==null)
-          console.log(filtered)
+          //console.log(filtered)
           //setfilteredcart(filtered1)
         
          //setcart(filtered)

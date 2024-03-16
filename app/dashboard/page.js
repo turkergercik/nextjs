@@ -67,7 +67,7 @@ const Page = () => {
   },[category,categories])
   const handleInputChange = (e,s) => {
     let newValue = e.target.value.replace(/^0/,"");
-console.log(newValue)
+//console.log(newValue)
     // Handle dot at the beginning
     if (newValue.length === 1 && newValue === '0') {
       s(''); // Reset to empty string
@@ -98,7 +98,7 @@ console.log(newValue)
           <div key={productIndex} className='flex flex-col flex-1 bg-gray-800 border-2 border-gray-700 rounded-lg transition-transform hover:scale-105'>
             <Link href={`/dashboard/${product.id}?category=${categoryItem.slug}`}>
             <div className='aspect-w-1 aspect-h-1 bg-gray-900'>
-              <Image className='object-cover h-full w-full rounded-md' alt={product.name} src={product.imageUrl} width={500} height={500}/>
+              <Image className='object-cover h-full w-full rounded-md' alt={product.name} src={product.imageUrl} width={500} height={500} priority/>
             </div>
             <span className='flex flex-1 justify-center text-nowrap text-white bg-gray-900 rounded-b-lg'>{product.name}</span>
               </Link>
@@ -124,12 +124,12 @@ console.log(newValue)
                    if(newprice){
                     let price = [...allp]
                     price[productIndex].price=newprice
-                    console.log(selected[0].products[productIndex].price)
+                    //console.log(selected[0].products[productIndex].price)
            setallp(price)
                    }else{
                     let price = [...allp]
                     price[productIndex].price=null
-                    console.log(selected[0].products[productIndex].price)
+                    //console.log(selected[0].products[productIndex].price)
            setallp(price)
 
                    }
@@ -158,12 +158,12 @@ console.log(newValue)
   if(newprice){
    let price = [...allp]
    price[productIndex].stock=newprice
-   console.log(selected[0].products[productIndex].stock)
+   //console.log(selected[0].products[productIndex].stock)
 setallp(price)
   }else{
    let price = [...allp]
    price[productIndex].stock=null
-   console.log(selected[0].products[productIndex].price)
+   //console.log(selected[0].products[productIndex].price)
 setallp(price)
 
   }

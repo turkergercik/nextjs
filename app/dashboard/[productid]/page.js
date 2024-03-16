@@ -26,7 +26,7 @@ const Page = ({params}) => {
       categoryid.current=id.id
       const pt= id.products.filter((item)=>item.id===parseInt(params.productid))[0]
       productid.current=pt.id
-      console.log(categoryid.current,productid.current)
+      //console.log(categoryid.current,productid.current)
      setproduct(pt)
      setname(pt.name)
      setprice(pt.price)
@@ -69,7 +69,7 @@ const Page = ({params}) => {
 
     const handleInputChange = (e,s) => {
       let newValue = e.target.value.replace(/[^0-9]/g, '').replace(/^0+/, '')
-  console.log(newValue)
+  //console.log(newValue)
       // Handle dot at the beginning
       if (newValue.length === 1 && newValue === '0') {
         s(''); // Reset to empty string
@@ -82,7 +82,7 @@ const Page = ({params}) => {
     <div className='flex flex-col  h-screen bg-gray-900 pt-20 overflow-y-auto shadow-lg'>
     <Header categories={allcategories} category={category} setcategory={setcategory}>
     </Header>
-    <button className='whitespace-nowrap bg-gray-800 p-2 fixed w-full z-10  text-white'>
+    <button className='whitespace-nowrap bg-gray-800 p-2 fixed w-full z-10  text-white' onClick={applyChanges}>
       <span className='bg-gray-900 p-1.5 px-2 rounded-lg'>
       Apply Changes
 

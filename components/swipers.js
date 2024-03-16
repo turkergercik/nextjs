@@ -23,8 +23,7 @@ export const Myswiper = () => {
       spaceBetween={10}
       autoplay={{delay:3000}}
       slidesPerView={1}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      
     >
       {allcategories.map((c, i) => (
         <SwiperSlide key={i}>
@@ -44,6 +43,7 @@ export const Myswiper = () => {
                       className="rounded-md w-full h-full object-cover"
                       src={product.imageUrl}
                       alt={product.name}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       fill
                       priority
                     />

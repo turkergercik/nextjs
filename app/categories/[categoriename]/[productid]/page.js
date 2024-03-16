@@ -22,7 +22,7 @@ const Product = async ({ params }) => {
   return (
     <div className="flex relative flex-col bg-white sm:flex-row h-screen pt-20 ">
       <div className="flex-1 flex-col md:flex-row  relative h-full flex  items-center ">
-        <div className="flex w-full items-center flex-col sm:flex-row justify-evenly h-full border-2 gap-5 px-5 ">
+        <div className="flex w-full items-center flex-col sm:flex-row justify-evenly h-full border-0 gap-5 px-5 ">
         <span className=" flex sm:absolute  top-2 justify-center  text-orange-800  border-0 border-orange-800 rounded-lg text-3xl items-center font-medium  w-full  p-1  ">
           {product.name}
         </span>
@@ -32,15 +32,14 @@ const Product = async ({ params }) => {
             className="object-cover border-2 border-orange-200 rounded-2xl"
             src={product.imageUrl}
             priority
-            layout="fill"
-            
-            objectPosition="center"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            fill
             alt={product.name}
           />
         </div>
         
         
-        <div className="sm:flex-1 border-0 border-black sm:py-12 w-full sm:h-full flex flex-col justify-between items-center">
+        <div className="sm:flex-1 border-0 border-black sm:py-14 w-full sm:h-full flex flex-col justify-between items-center">
         <p className="text-center text-xl items-end text-orange-800">{product.description}</p>
         <div className="sm:flex-row flex-col w-full flex justify-between items-center gap-0">
           <span className="flex w-full text-nowrap justify-center text-orange-800  text-lg items-center px-3 sm:py-1 py-4 rounded-lg">{`${product.price} ₺`}</span>

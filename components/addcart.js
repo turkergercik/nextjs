@@ -32,7 +32,7 @@ const Addcart = ({category,id,product}) => {
     }
     const removeItem=()=>{
       const filtered = cart.findIndex((cartitem,index)=>cartitem.id===id)
-      console.log(filtered)
+      //console.log(filtered)
       const mycart=[...cart]
       mycart.splice(filtered,1)
       localStorage.setItem("cart",JSON.stringify(mycart))
@@ -52,7 +52,7 @@ const Addcart = ({category,id,product}) => {
     
     {
       total!==0 && <IoRemoveCircleOutline className=' p-1 my-1 w-12 h-12 text-orange-800 hover:text-red-500' onClick={() => {
-        console.log("1")
+        //console.log("1")
         removeItem()
       } }>çıkar</IoRemoveCircleOutline>
     }
@@ -66,7 +66,7 @@ const Addcart = ({category,id,product}) => {
       </span>
     }
     <IoAddCircleOutline className=' p-1 my-1 h-12 w-12 text-orange-800 hover:text-green-500' onClick={() => {
-      console.log("1")
+      //console.log("1")
       additem()
     } }>ekle</IoAddCircleOutline>
     
