@@ -79,7 +79,7 @@ const Page = () => {
 
   return (
 
-<div className='flex flex-1 h-screen bg-gray-800 flex-col w-full pt-20'>
+<div className='flex flex-1 h-screen bg-gray-800 flex-col w-full pt-20 pr-1'>
   <Header categories={categories} setcategory={setcategory} category={category} />
   {selected.map((categoryItem, categoryIndex) => (
     <div key={categoryIndex} className='overflow-y-auto '>

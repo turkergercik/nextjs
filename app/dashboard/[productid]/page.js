@@ -79,7 +79,8 @@ const Page = ({params}) => {
       s(newValue); // Update input value
     };
   return (
-    <div className='flex flex-col  h-screen bg-gray-900 pt-20 overflow-y-auto shadow-lg'>
+    <div className='flex flex-col  h-screen bg-gray-900 pt-20  shadow-lg  pr-1'>
+      <div className='flex flex-col overflow-y-auto h-full w-full '>
     <Header categories={allcategories} category={category} setcategory={setcategory}>
     </Header>
     <button className='whitespace-nowrap bg-gray-800 p-2 fixed w-full z-10  text-white' onClick={applyChanges}>
@@ -88,12 +89,12 @@ const Page = ({params}) => {
 
       </span>
     </button>
-    <div className='flex flex-col p-1 sm:flex-row bg-gray-900 sm:h-full w-full items-center justify-center text-center pt-10'>
+    <div className='flex flex-col p-1 sm:flex-row bg-gray-900 sm:h-full w-full items-center justify-center text-center mt-10'>
       <div className='h-full  px-1 gap-2 items-center w-full flex flex-col justify-between text-3xl'>
         <span className=' border-0 text-white my-1 p-1 rounded-lg text-nowrap w-full'>
           {product?.name}
         </span>
-        <div className='relative max-w-md sm:max-w-sm h-full sm:w-max   w-full aspect-[10/7]'>
+        <div className='relative max-w-md sm:max-w-sm h-full w-full aspect-[10/7]'>
           {product &&
             <Image className='rounded-lg' src={imageurl}
               style={{ objectFit: "cover" }}
@@ -181,6 +182,7 @@ const Page = ({params}) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
   

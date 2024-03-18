@@ -18,7 +18,7 @@ export const Myswiper = () => {
 
   return (
     <Swiper
-      className='bg-white '
+      className='bg-orange-50 '
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={10}
       autoplay={{delay:3000}}
@@ -27,7 +27,7 @@ export const Myswiper = () => {
     >
       {allcategories.map((c, i) => (
         <SwiperSlide key={i}>
-          <div className="bg-white-900 text-orange-800 h-full w-full flex flex-col items-center p-2 overflow-y-auto  border-0 border-red-500">
+          <div id='a4' className="bg-orange-50 text-orange-800 h-full w-full flex flex-col items-center p-2 overflow-y-auto  border-0 border-red-500">
             <span className="p-2 text-2xl font-bold">{c.name}</span>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  gap-2  pt-2 w-full">
               {c.products.map((product, index) => (
@@ -36,7 +36,7 @@ export const Myswiper = () => {
                   onClick={() => {
                     router.push(`/categories/${c.slug}/${product.id}`);
                   }}
-                  className="bg-orange-100  flex border-2 border-orange-300 h-full w-full flex-col justify-between items-center rounded-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-pointer"
+                  className="bg-orange-200  flex border-2 border-orange-500 h-full w-full flex-col justify-between items-center rounded-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg cursor-pointer"
                 >
                   <div className="relative h-32 sm:h-36 md:h-40 lg:h-44 xl:h-48 w-full rounded-lg">
                     <Image
@@ -49,9 +49,9 @@ export const Myswiper = () => {
                     />
                     <div className="absolute inset-0  bg-black opacity-10 rounded-md"></div>
                   </div>
-                  <span className="text-sm font-bold text-center flex flex-row justify-around w-full items-center py-2">
+                  <span className="text-sm font-bold text-center px-1 flex flex-row justify-around w-full items-center py-2">
                     {product.name}
-                    <span className='text-nowrap text-xs'>
+                    <span className='text-nowrap text-xs px-2'>
                       {product.price} ₺
                     </span>
                     </span>

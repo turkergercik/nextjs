@@ -14,14 +14,14 @@ const Header = ({ categories,category,setcategory }) => {
 
  
   return (
-    <header className='flex fixed top-0 w-full right-0 left-0 z-10 items-center bg-gray-900 border-b-2 border-gray-950 h-20 '>
+    <header className='flex fixed top-0 py-0.5 pr-1 w-full right-0 left-0 z-10 items-center bg-gray-900 border-b-2 border-gray-950 h-20 '>
     <nav className='flex justify-between  w-full font-medium text-md h-full items-center '>
       <span className='flex px-1'>
         <Link href="/">
           <span className='text-white cursor-pointer hover:text-gray-300'>turkergercik</span>
         </Link>
       </span>
-     <div className='flex   h-full overflow-x-auto'>
+     <div className='flex px-3   h-full overflow-x-auto'>
       <ul className='flex h-full items-center justify-center'>
         {categories.map(categorye => (
           <div key={categorye.id} className='whitespace-nowrap text-xl w-full  transform hover:scale-105 transition-transform duration-300 ease-in-out'>

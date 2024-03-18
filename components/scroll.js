@@ -7,7 +7,7 @@ export const Scroll = ({children,products}) => {
     const [loading, setloading] = useState(false);
     useEffect(() => {
         const handleScroll = () => {
-            const d = document.getElementById("4")
+            const d = document.getElementById("a4")
          
             
              
@@ -34,16 +34,17 @@ export const Scroll = ({children,products}) => {
                   }
         };
 
-        document.getElementById("4").addEventListener('scroll', handleScroll);
+        document.getElementById("a4").addEventListener('scroll', handleScroll);
 
         return () => {
-            document.getElementById("4")?.removeEventListener('scroll', handleScroll);
+            document.getElementById("a4")?.removeEventListener('scroll', handleScroll);
         };
     }, []);
   return (
-    <div className="h-screen flex w-full pt-20 ">
-  <div id='4' className={`bg-white text-gray-800 h-full w-full flex flex-col items-center p-2  overflow-y-auto`}>
-    <span className="p-2 text-2xl font-bold flex text-orange-900">{products.name}</span>
+    <div className="h-screen flex w-full bg-white pt-20 pr-0.5">
+      
+  <div id='a4' className={` text-gray-800 h-full w-full flex flex-col items-center p-2   overflow-y-auto`}>
+    <span className="p-2 text-2xl font-bold flex text-orange-800">{products.name}</span>
     <div className="grid relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 pt-2 w-full ">
       {allproducts.map((product, index) => (
         <Link
@@ -62,8 +63,8 @@ export const Scroll = ({children,products}) => {
             />
             <div className="absolute inset-0 bg-black opacity-10 transition-opacity duration-300 ease-in-out "></div>
           </div>
-          <span className="text-sm font-bold py-2 flex flex-row text-center items-center justify-around w-full text-orange-900">{product.name}
-          <span className='text-nowrap text-xs'>{product.price} ₺</span>
+          <span className="text-sm border-0 px-1 font-bold py-2 flex flex-row text-center items-center justify-around w-full text-orange-900">{product.name}
+          <span className='text-nowrap text-xs px-2'>{product.price} ₺</span>
           </span>
           
         </Link>

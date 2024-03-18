@@ -36,7 +36,7 @@ const Header =({params,statusCode}) => {
 
  
   return (
-    <header className="flex fixed top-0 text-white text-md font-medium  border-gray-950 right-0 left-0 z-10 items-center bg-orange-600 h-20">
+    <header className="flex fixed top-0 py-0.5 text-white text-md font-medium  border-gray-950 right-0 left-0 z-10 items-center bg-orange-600 h-20">
     <nav className="flex w-full h-full justify-between items-center px-2">
       <span className="flex ">
         <Link href="/" className="flex items-center transform hover:scale-105 transition-transform duration-300 ease-in-out ">
@@ -44,9 +44,9 @@ const Header =({params,statusCode}) => {
         </Link>
       </span>
   
-      <ul className="flex overflow-x-auto h-full items-center px-2">
+      <ul className="flex border-0 overflow-x-auto h-full items-center px-2">
         {allcategories.map((category) => (
-          <li key={category.id} className="whitespace-nowrap text-xl transform hover:scale-105 transition-transform duration-300 ease-in-out  ">
+          <li key={category.id} className="  whitespace-nowrap text-xl transform hover:scale-105 transition-transform duration-300 ease-in-out  ">
             <Link href={`/categories/${category.slug}`} className={path.includes(category.slug) ? "rounded-lg p-2 border-2 border-white hover:bg-orange-800" : "p-2 rounded-lg hover:bg-orange-800"}>
               {category.name}
             </Link>

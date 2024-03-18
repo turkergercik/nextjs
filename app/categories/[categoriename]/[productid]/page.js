@@ -20,13 +20,15 @@ const Product = async ({ params }) => {
   const product = filteredproducts.products.filter((item) => item.id === parseInt(params.productid))[0];
 
   return (
-    <div className="flex relative flex-col bg-white sm:flex-row h-screen pt-20 ">
-      <div className="flex-1 flex-col md:flex-row  relative h-full flex  items-center ">
-        <div className="flex w-full items-center flex-col sm:flex-row justify-evenly h-full border-0 gap-5 px-5 ">
-        <span className=" flex sm:absolute  top-2 justify-center  text-orange-800  border-0 border-orange-800 rounded-lg text-3xl items-center font-medium  w-full  p-1  ">
+    <div className="flex relative h-screen flex-col bg-white sm:flex-row sm:h-screen   pt-20 pr-0.5 ">
+      <div id="a4" className=" overflow-y-auto w-full h-full">
+      <div className="flex-1 flex-col md:flex-row  w-full  relative  sm:h-full flex  items-center ">
+        <div className="flex w-full   items-center flex-col sm:flex-row justify-evenly h-full border-0 gap-5 px-5 ">
+        <span className=" flex sm:absolute border-0  top-0 pt-4 right-3 left-1/2 justify-center  text-orange-800  border-orange-800 rounded-lg text-3xl items-center font-medium    p-1  ">
           {product.name}
         </span>
-        <div className="relative sm:flex-1 max-w-md sm:max-w-full w-full aspect-[10/7]  sm:mt-9 rounded-md overflow-hidden hover:shadow-xl transition duration-300 ease-in-out">
+      
+        <div className="relative  sm:flex-1  sm:max-w-full w-full aspect-[10/7]  rounded-2xl  hover:shadow-xl transition duration-300 ease-in-out">
        
           <Image
             className="object-cover border-2 border-orange-200 rounded-2xl"
@@ -37,10 +39,11 @@ const Product = async ({ params }) => {
             alt={product.name}
           />
         </div>
+       
         
-        
-        <div className="sm:flex-1 border-0 border-black sm:py-14 w-full sm:h-full flex flex-col justify-between items-center">
-        <p className="text-center text-xl items-end text-orange-800">{product.description}</p>
+        <div className="sm:flex-1 border-0    border-black w-full sm:h-1/2  flex flex-col justify-between items-center">
+        <p className="text-center text-xl items-end text-orange-800 overflow-y-auto">{product.description}
+        </p>
         <div className="sm:flex-row flex-col w-full flex justify-between items-center gap-0">
           <span className="flex w-full text-nowrap justify-center text-orange-800  text-lg items-center px-3 sm:py-1 py-4 rounded-lg">{`${product.price} ₺`}</span>
           <div className="flex flex-row justify-center items-center w-full">
@@ -54,7 +57,7 @@ const Product = async ({ params }) => {
         </div>
         
       </div>
-    
+      </div>
     </div>
   );
 };
