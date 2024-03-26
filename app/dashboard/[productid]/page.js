@@ -101,6 +101,7 @@ const Page = ({params}) => {
               fill
               alt={""}
               sizes="(max-width: 768px) 100vw, 33vw"
+              priority
             />
           }
         </div>

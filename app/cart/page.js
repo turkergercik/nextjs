@@ -97,7 +97,7 @@ function updatecart(){
 
   return (
     <div className="flex flex-1 flex-col h-screen items-center gap-2 py-1 pb-20 pt-20 bg-white">
-      <div className="flex w-full h-full flex-col gap-2 overflow-y-auto  p-1 items-center">
+      <div id='a4' className="flex w-full h-full flex-col gap-2 overflow-y-auto  p-1 items-center">
         {filteredcart.map((item, index) => (
           <div key={index} className="flex w-full md:w-4/5 h-24  bg-orange-100 border-2 border-orange-300 items-center justify-between rounded-xl hover:shadow-lg">
             <div className="relative h-24 min-w-24">

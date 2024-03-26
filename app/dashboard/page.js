@@ -97,8 +97,8 @@ const Page = () => {
         {categoryItem.products.map((product, productIndex) => (
           <div key={productIndex} className='flex flex-col flex-1 bg-gray-800 border-2 border-gray-700 rounded-lg transition-transform hover:scale-105'>
             <Link href={`/dashboard/${product.id}?category=${categoryItem.slug}`}>
-            <div className='aspect-w-1 aspect-h-1 bg-gray-900'>
-              <Image className='object-cover h-full w-full rounded-md' alt={product.name} src={product.imageUrl} width={500} height={500} priority/>
+            <div className='aspect-w-1 bg-gray-900 rounded-lg aspect-h-1'>
+              <Image className='object-cover h-full w-full rounded-t-md' alt={product.name} src={product.imageUrl} width={500} height={500} priority/>
             </div>
             <span className='flex flex-1 justify-center text-nowrap text-white bg-gray-900 rounded-b-lg'>{product.name}</span>
               </Link>

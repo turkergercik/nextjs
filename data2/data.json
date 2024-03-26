@@ -7,7 +7,7 @@
       {
         "id": 1,
         "name": "phone71",
-        "imageUrl": "https://placekitten.com/300/204",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Feature-rich smartphone with a stunning display and advanced camera capabilities.",
         "price": "794",
         "stock": "780"
@@ -15,7 +15,7 @@
       {
         "id": 2,
         "name": "Smartphone",
-        "imageUrl": "https://placekitten.com/300/201",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Feature-rich smartphone with a stunning display and advanced camera capabilities.",
         "price": "378",
         "stock": "7"
@@ -23,7 +23,7 @@
       {
         "id": 3,
         "name": "Headphones",
-        "imageUrl": "https://placekitten.com/300/202",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Premium over-ear headphones delivering immersive audio experience.",
         "price": "149.99",
         "stock": 20
@@ -31,7 +31,7 @@
       {
         "id": 4,
         "name": "Tablet",
-        "imageUrl": "https://placekitten.com/300/203",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Versatile tablet for entertainment and productivity on the go.",
         "price": 299.99,
         "stock": 40
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "name": "Smartwatch",
-        "imageUrl": "https://placekitten.com/300/204",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Elegant smartwatch with health and fitness tracking features.",
         "price": "78",
         "stock": 25
@@ -47,7 +47,7 @@
       {
         "id": 6,
         "name": "Camera",
-        "imageUrl": "https://placekitten.com/300/205",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "High-resolution camera for capturing life's precious moments.",
         "price": 449.99,
         "stock": 15
@@ -55,7 +55,7 @@
       {
         "id": 7,
         "name": "Bluetooth Speaker",
-        "imageUrl": "https://placekitten.com/300/206",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Portable Bluetooth speaker with rich and clear sound.",
         "price": 79.99,
         "stock": 50
@@ -63,7 +63,7 @@
       {
         "id": 8,
         "name": "Gaming Console",
-        "imageUrl": "https://placekitten.com/300/207",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Next-gen gaming console for immersive gaming experiences.",
         "price": 499.99,
         "stock": 10
@@ -71,7 +71,7 @@
       {
         "id": 9,
         "name": "Fitness Tracker",
-        "imageUrl": "https://placekitten.com/300/208",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Fitness tracker to monitor your health and wellness activities.",
         "price": 129.99,
         "stock": 35
@@ -79,7 +79,7 @@
       {
         "id": 10,
         "name": "External Hard Drive",
-        "imageUrl": "https://placekitten.com/300/209",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "High-capacity external hard drive for data storage and backup.",
         "price": 89.99,
         "stock": 60
@@ -87,7 +87,7 @@
       {
         "id": 11,
         "name": "Printer",
-        "imageUrl": "https://placekitten.com/300/210",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Multifunctional printer for printing, scanning, and copying.",
         "price": 179.99,
         "stock": 25
@@ -95,7 +95,7 @@
       {
         "id": 12,
         "name": "VR Headset",
-        "imageUrl": "https://placekitten.com/300/211",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Virtual reality headset for immersive gaming and experiences.",
         "price": 299.99,
         "stock": 20
@@ -110,7 +110,7 @@
       {
         "id": 13,
         "name": "T-Shirt127",
-        "imageUrl": "https://placekitten.com/300/213",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Comfortable cotton T-shirt with a stylish design.",
         "price": 24.99,
         "stock": 100
@@ -118,7 +118,7 @@
       {
         "id": 14,
         "name": "Jeans",
-        "imageUrl": "https://placekitten.com/300/214",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Classic denim jeans suitable for any casual occasion.",
         "price": 49.99,
         "stock": 80
@@ -126,7 +126,7 @@
       {
         "id": 15,
         "name": "Sneakers",
-        "imageUrl": "https://placekitten.com/300/215",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Trendy sneakers for a sporty and fashionable look.",
         "price": 69.99,
         "stock": 60
@@ -134,7 +134,7 @@
       {
         "id": 16,
         "name": "Hoodie",
-        "imageUrl": "https://placekitten.com/300/216",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Warm and cozy hoodie for chilly days.",
         "price": 39.99,
         "stock": 75
@@ -142,7 +142,7 @@
       {
         "id": 17,
         "name": "Dress Shirt",
-        "imageUrl": "https://placekitten.com/300/217",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Stylish dress shirt for formal or business casual occasions.",
         "price": 34.99,
         "stock": 90
@@ -150,7 +150,7 @@
       {
         "id": 18,
         "name": "Shorts",
-        "imageUrl": "https://placekitten.com/300/218",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Casual shorts perfect for a day out in the sun.",
         "price": 29.99,
         "stock": 120
@@ -158,7 +158,7 @@
       {
         "id": 19,
         "name": "Dress",
-        "imageUrl": "https://placekitten.com/300/219",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Elegant dress for special events and occasions.",
         "price": 79.99,
         "stock": 50
@@ -166,7 +166,7 @@
       {
         "id": 20,
         "name": "Sweater",
-        "imageUrl": "https://placekitten.com/300/220",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Soft and comfortable sweater for cooler weather.",
         "price": 54.99,
         "stock": 40
@@ -174,7 +174,7 @@
       {
         "id": 21,
         "name": "Jacket",
-        "imageUrl": "https://placekitten.com/300/221",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Stylish jacket to keep you warm and fashionable.",
         "price": 89.99,
         "stock": 30
@@ -182,7 +182,7 @@
       {
         "id": 22,
         "name": "Athletic Shoes",
-        "imageUrl": "https://placekitten.com/300/222",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Performance-driven athletic shoes for sports and workouts.",
         "price": 79.99,
         "stock": 45
@@ -190,7 +190,7 @@
       {
         "id": 23,
         "name": "Skirt",
-        "imageUrl": "https://placekitten.com/300/223",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Versatile skirt for a feminine and chic look.",
         "price": 39.99,
         "stock": 60
@@ -198,7 +198,7 @@
       {
         "id": 24,
         "name": "Winter Jacket",
-        "imageUrl": "https://placekitten.com/300/224",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Insulated winter jacket to stay warm in cold weather.",
         "price": 129.99,
         "stock": 20
@@ -213,7 +213,7 @@
       {
         "id": 25,
         "name": "Cookware Set1",
-        "imageUrl": "https://placekitten.com/300/225",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Complete cookware set for your kitchen needs.",
         "price": 199.99,
         "stock": 30
@@ -221,7 +221,7 @@
       {
         "id": 26,
         "name": "Coffee Maker",
-        "imageUrl": "https://placekitten.com/300/226",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Efficient coffee maker for brewing your favorite coffee blends.",
         "price": 129.99,
         "stock": 40
@@ -229,7 +229,7 @@
       {
         "id": 27,
         "name": "Blender",
-        "imageUrl": "https://placekitten.com/300/227",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Powerful blender for smoothies, shakes, and more.",
         "price": 89.99,
         "stock": 25
@@ -237,7 +237,7 @@
       {
         "id": 28,
         "name": "Toaster",
-        "imageUrl": "https://placekitten.com/300/228",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Modern toaster for quick and even toasting.",
         "price": 49.99,
         "stock": 50
@@ -245,7 +245,7 @@
       {
         "id": 29,
         "name": "Dining Table",
-        "imageUrl": "https://placekitten.com/300/229",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Sturdy dining table for family gatherings and meals.",
         "price": 299.99,
         "stock": 15
@@ -253,7 +253,7 @@
       {
         "id": 30,
         "name": "Bedding Set",
-        "imageUrl": "https://placekitten.com/300/230",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Comfortable bedding set for a good night's sleep.",
         "price": 129.99,
         "stock": 60
@@ -261,7 +261,7 @@
       {
         "id": 31,
         "name": "Vacuum Cleaner",
-        "imageUrl": "https://placekitten.com/300/231",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Efficient vacuum cleaner for hassle-free cleaning.",
         "price": 149.99,
         "stock": 35
@@ -269,7 +269,7 @@
       {
         "id": 32,
         "name": "Wall Clock",
-        "imageUrl": "https://placekitten.com/300/232",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Stylish wall clock to enhance your home decor.",
         "price": 39.99,
         "stock": 75
@@ -277,7 +277,7 @@
       {
         "id": 33,
         "name": "Candle Holder",
-        "imageUrl": "https://placekitten.com/300/233",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Decorative candle holder for a cozy atmosphere.",
         "price": 19.99,
         "stock": 80
@@ -285,7 +285,7 @@
       {
         "id": 34,
         "name": "Air Purifier",
-        "imageUrl": "https://placekitten.com/300/234",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Air purifier for cleaner and fresher indoor air.",
         "price": 99.99,
         "stock": 20
@@ -293,7 +293,7 @@
       {
         "id": 35,
         "name": "Throw Pillow",
-        "imageUrl": "https://placekitten.com/300/235",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Soft throw pillow to add comfort to your living space.",
         "price": 14.99,
         "stock": 100
@@ -301,7 +301,7 @@
       {
         "id": 36,
         "name": "Kitchen Utensils Set",
-        "imageUrl": "https://placekitten.com/300/236",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Complete kitchen utensils set for cooking convenience.",
         "price": 59.99,
         "stock": 45
@@ -316,7 +316,7 @@
       {
         "id": 37,
         "name": "Fiction Book 1",
-        "imageUrl": "https://placekitten.com/300/237",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Captivating fiction book with an unpredictable plot.",
         "price": 19.99,
         "stock": 60
@@ -324,7 +324,7 @@
       {
         "id": 38,
         "name": "Fiction Book 2",
-        "imageUrl": "https://placekitten.com/300/238",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Another intriguing fiction book to keep you hooked.",
         "price": 24.99,
         "stock": 40
@@ -332,7 +332,7 @@
       {
         "id": 39,
         "name": "Mystery Book",
-        "imageUrl": "https://placekitten.com/300/239",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Exciting mystery book with suspenseful storytelling.",
         "price": 29.99,
         "stock": 50
@@ -340,7 +340,7 @@
       {
         "id": 40,
         "name": "Science Fiction Book",
-        "imageUrl": "https://placekitten.com/300/240",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Immersive science fiction book set in a futuristic world.",
         "price": 34.99,
         "stock": 30
@@ -348,67 +348,69 @@
       {
         "id": 41,
         "name": "Non-Fiction Book 1",
-        "imageUrl": "https://placekitten.com/300/241",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Informative non-fiction book on a compelling topic.",
         "price": 24.99,
-        "stock": 70
-      },
-      {
-        "id": 42,
-        "name": "Non-Fiction Book 2",
-        "imageUrl": "https://placekitten.com/300/242",
-        "description": "Another thought-provoking non-fiction book for knowledge seekers.",
-        "price": 29.99,
-        "stock": 45
-      },
-      {
-        "id": 43,
-        "name": "Biography",
-        "imageUrl": "https://placekitten.com/300/243",
-        "description": "Inspirational biography detailing the life of a notable figure.",
-        "price": 39.99,
-        "stock": 55
-      },
-      {
-        "id": 44,
-        "name": "Self-Help Book",
-        "imageUrl": "https://placekitten.com/300/244",
-        "description": "Motivational self-help book for personal growth and development.",
-        "price": 19.99,
-        "stock": 80
-      },
-      {
-        "id": 45,
-        "name": "Cookbook",
-        "imageUrl": "https://placekitten.com/300/245",
-        "description": "Delicious cookbook with a variety of recipes for home cooking.",
-        "price": 29.99,
-        "stock": 65
-      },
-      {
-        "id": 46,
-        "name": "Poetry Book",
-        "imageUrl": "https://placekitten.com/300/246",
-        "description": "Artistic poetry book with evocative verses and expressions.",
-        "price": 14.99,
-        "stock": 90
-      },
-      {
-        "id": 47,
-        "name": "History Book",
-        "imageUrl": "https://placekitten.com/300/247",
-        "description": "Insightful history book exploring past events and civilizations.",
-        "price": 34.99,
-        "stock": 40
-      },
-      {
-        "id": 48,
-        "name": "Art Book",
-        "imageUrl": "https://placekitten.com/300/248",
-        "description": "Beautifully illustrated art book showcasing diverse artistic works.",
-        "price": 49.99,
-        "stock": 50
-      }
-    ]
-  }
-]
+        "stock": 70      },
+        {
+          "id": 42,
+          "name": "Non-Fiction Book 2",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Another thought-provoking non-fiction book for knowledge seekers.",
+          "price": 29.99,
+          "stock": 45
+        },
+        {
+          "id": 43,
+          "name": "Biography",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Inspirational biography detailing the life of a notable figure.",
+          "price": 39.99,
+          "stock": 55
+        },
+        {
+          "id": 44,
+          "name": "Self-Help Book",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Motivational self-help book for personal growth and development.",
+          "price": 19.99,
+          "stock": 80
+        },
+        {
+          "id": 45,
+          "name": "Cookbook",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Delicious cookbook with a variety of recipes for home cooking.",
+          "price": 29.99,
+          "stock": 65
+        },
+        {
+          "id": 46,
+          "name": "Poetry Book",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Artistic poetry book with evocative verses and expressions.",
+          "price": 14.99,
+          "stock": 90
+        },
+        {
+          "id": 47,
+          "name": "History Book",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Insightful history book exploring past events and civilizations.",
+          "price": 34.99,
+          "stock": 40
+        },
+        {
+          "id": 48,
+          "name": "Art Book",
+          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+          "description": "Beautifully illustrated art book showcasing diverse artistic works.",
+          "price": 49.99,
+          "stock": 50
+        }
+      ]
+    }
+  ]
+  
+     
+
