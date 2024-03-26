@@ -44,7 +44,7 @@ const Page = ({params}) => {
       newproduct.imageUrl=imageurl
       newproduct.stock=quantity
       newproduct.description=description
-      console.log(category,categoryid.current,productid.current)
+      //console.log(category,categoryid.current,productid.current)
 
       fetch(`/api/${category}?categoryid=${categoryid.current}&productid=${productid.current}`,{
         method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -99,6 +99,7 @@ const Page = ({params}) => {
             <Image className='rounded-lg' src={imageurl}
               style={{ objectFit: "cover" }}
               fill
+              
               alt={""}
               sizes="(max-width: 768px) 100vw, 33vw"
               priority
@@ -107,6 +108,7 @@ const Page = ({params}) => {
         </div>
         <div className="flex items-center justify-center w-full ">
           <input
+            name="a"
             className="focus:border-white outline-none bg-gray-900 text-white border-gray-950 border-2 rounded-lg p-1 w-full text-center text-lg"
             type="text"
             placeholder="Enter new name"
@@ -116,6 +118,7 @@ const Page = ({params}) => {
         </div>
         <div className="flex items-center justify-center w-full pb-1">
           <input
+            name='b'
             className="outline-none border-2  focus:border-white  bg-gray-900 text-white border-gray-950 rounded-lg p-1 w-full text-center text-lg"
             type="text"
             placeholder="Enter new image url"
@@ -138,13 +141,14 @@ const Page = ({params}) => {
             {product?.description}
           </p>
         </span>
-        <textarea placeholder='New description' className='h-full border-2 focus:border-white rounded-lg border-gray-800 outline-none w-full p-2' value={description} onChange={(e) => setdescription(e.target.value)} />
+        <textarea name='e' placeholder='New description' className='h-full border-2 focus:border-white rounded-lg border-gray-800 outline-none w-full p-2' value={description} onChange={(e) => setdescription(e.target.value)} />
         <div className='flex justify-center items-center '>
           <span className='w-full text-white'>
             {`${product?.price} ₺`}
           </span>
           <div className="flex items-center justify-center w-full">
             <input
+            name='c'
               className="border-2 focus:border-white outline-none bg-gray-900 text-white border-gray-950 rounded-lg p-1 w-full text-center text-lg"
               type="number"
               placeholder="Enter new price"
@@ -167,6 +171,7 @@ const Page = ({params}) => {
           </span>
           <div className="flex items-center justify-center w-full">
             <input
+            name='d'
               className=" focus:border-white outline-none bg-gray-900 text-white border-gray-950 border-2  rounded-lg p-1 w-full text-center text-lg"
               type="number"
               placeholder="Enter new stock"

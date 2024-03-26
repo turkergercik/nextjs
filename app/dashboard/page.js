@@ -105,7 +105,7 @@ const Page = () => {
             <div className='flex relative flex-1 flex-row w-full p-1'>
               <div className='flex flex-1 justify-center items-center text-white'>{`${product.price} ₺`}</div>
               
-              <input type='number' className='flex rounded-lg outline-none focus:border-gray-200 flex-1 border-2 border-gray-950 w-full p-1 bg-gray-800 text-white' placeholder='Price' value={allp[productIndex].price}
+              <input name={productIndex} type='number' className='flex rounded-lg outline-none focus:border-gray-200 flex-1 border-2 border-gray-950 w-full p-1 bg-gray-800 text-white' placeholder='Price' value={allp[productIndex].price}
               onKeyDown={(e)=>{
                 if(allp[productIndex].price){
                  
@@ -137,7 +137,7 @@ const Page = () => {
             </div>
             <div className='flex flex-1 flex-row w-full p-1'>
               <div className='flex flex-1 justify-center items-center text-white'>{product.stock} pcs</div>
-              <input type='number' className='flex flex-1 border-2 rounded-lg focus:border-gray-200 outline-none border-gray-950 w-full p-1 bg-gray-800 text-white' value={allp[productIndex].stock}
+              <input name={`${productIndex}-`} type='number' className='flex flex-1 border-2 rounded-lg focus:border-gray-200 outline-none border-gray-950 w-full p-1 bg-gray-800 text-white' value={allp[productIndex].stock}
               onKeyDown={(e)=>{
                 if(allp[productIndex].stock){
                   if((e.key==="," || e.key===".")){

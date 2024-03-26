@@ -9,7 +9,7 @@
         "name": "phone71",
         "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Feature-rich smartphone with a stunning display and advanced camera capabilities.",
-        "price": "794",
+        "price": "799",
         "stock": "780"
       },
       {
@@ -17,8 +17,8 @@
         "name": "Smartphone",
         "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Feature-rich smartphone with a stunning display and advanced camera capabilities.",
-        "price": "378",
-        "stock": "7"
+        "price": "383",
+        "stock": "12"
       },
       {
         "id": 3,
@@ -351,66 +351,64 @@
         "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
         "description": "Informative non-fiction book on a compelling topic.",
         "price": 24.99,
-        "stock": 70      },
-        {
-          "id": 42,
-          "name": "Non-Fiction Book 2",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Another thought-provoking non-fiction book for knowledge seekers.",
-          "price": 29.99,
-          "stock": 45
-        },
-        {
-          "id": 43,
-          "name": "Biography",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Inspirational biography detailing the life of a notable figure.",
-          "price": 39.99,
-          "stock": 55
-        },
-        {
-          "id": 44,
-          "name": "Self-Help Book",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Motivational self-help book for personal growth and development.",
-          "price": 19.99,
-          "stock": 80
-        },
-        {
-          "id": 45,
-          "name": "Cookbook",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Delicious cookbook with a variety of recipes for home cooking.",
-          "price": 29.99,
-          "stock": 65
-        },
-        {
-          "id": 46,
-          "name": "Poetry Book",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Artistic poetry book with evocative verses and expressions.",
-          "price": 14.99,
-          "stock": 90
-        },
-        {
-          "id": 47,
-          "name": "History Book",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Insightful history book exploring past events and civilizations.",
-          "price": 34.99,
-          "stock": 40
-        },
-        {
-          "id": 48,
-          "name": "Art Book",
-          "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
-          "description": "Beautifully illustrated art book showcasing diverse artistic works.",
-          "price": 49.99,
-          "stock": 50
-        }
-      ]
-    }
-  ]
-  
-     
-
+        "stock": 70
+      },
+      {
+        "id": 42,
+        "name": "Non-Fiction Book 2",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Another thought-provoking non-fiction book for knowledge seekers.",
+        "price": 29.99,
+        "stock": 45
+      },
+      {
+        "id": 43,
+        "name": "Biography",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Inspirational biography detailing the life of a notable figure.",
+        "price": 39.99,
+        "stock": 55
+      },
+      {
+        "id": 44,
+        "name": "Self-Help Book",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Motivational self-help book for personal growth and development.",
+        "price": 19.99,
+        "stock": 80
+      },
+      {
+        "id": 45,
+        "name": "Cookbook",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Delicious cookbook with a variety of recipes for home cooking.",
+        "price": 29.99,
+        "stock": 65
+      },
+      {
+        "id": 46,
+        "name": "Poetry Book",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Artistic poetry book with evocative verses and expressions.",
+        "price": 14.99,
+        "stock": 90
+      },
+      {
+        "id": 47,
+        "name": "History Book",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Insightful history book exploring past events and civilizations.",
+        "price": 34.99,
+        "stock": 40
+      },
+      {
+        "id": 48,
+        "name": "Art Book",
+        "imageUrl": "https://www.humanresourcing.co.uk/wp-content/uploads/2023/08/connected-technology.jpg",
+        "description": "Beautifully illustrated art book showcasing diverse artistic works.",
+        "price": 49.99,
+        "stock": 50
+      }
+    ]
+  }
+]
